@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial;
+}
+/* Header Starrting */
+
+header .header_top{
+    background-color: #000000;
+}
+header .header_top .header_tel{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+}
+header .header_top .header_tel a{
+    text-decoration: none;
+    color:white; 
+    margin-left: 10px;
+}
+header .header_top .dropdown{
+    border-left: 1px solid #4444;
+    border-right: 1px solid #4444;
+    outline: none;
+}
+header .header_top .dropdown .btn{
+    padding: 11px 3px 10px 6px;
+    color: white;
+    font-weight: 400;
+}
+
+header .header_top .header_user{
+    color: white;
+    font-weight: 400;
+}
+header .header_top .header_user .fa{
+    font-size: 16px;
+    color: #6666;
+    margin: 7px 11px 9px 11px;
+}
+header .header_top .header_user a{
+    margin: 10px 9px 11px 0;
+}
+header .header_top .header_search{
+    background: transparent;
+    border: none;
+    border-left: 1px solid #4444;
+    border-right: 1px solid #4444;
+    outline: none;
+    margin: 0 0 0 10px;
+    padding: 10px 0;
+}
+header .header_top .header_search .fa{
+    color: white;
+    font-size: 17px;
+    margin: 0 6px 0 8px;
+   
+}
+
+
+
+header .header_nav{
+    background: #fafafa;
+    font-weight: 400;
+    padding: 21px 0 19px 0;
+}header .header_nav .logo_shop{
+    font-size: 24px;
+    color: #000000;
+    text-transform: capitalize;
+}
+ header .header_nav .navbar .collapse .navbar-nav .nav-item .nav-link{
+     font-size: 16px;
+     color:BLACK;
+     font-weight: 400;
+ }
+ header .header_nav .dropdown{
+     width: 90%;
+     border: 1px solid #d6d6d6;
+ }
+ header .header_nav .dropdown .btn{
+     color: #949393;
+     padding: 9px 7px 13px 9px;
+     width: 100%;
+ }
+ header .header_nav .dropdown .dropdown-toggle::after{
+     margin-left: 80px;
+ }
+ header .header_nav .card_nav{
+     width: 90%;
+     background: transparent;
+     padding: 9px 7px 13px 9px;
+     border: none;
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    color: #949393;
+ }
+ header .header_nav .card_nav .fa{
+     margin-right: 35px;
+ }
